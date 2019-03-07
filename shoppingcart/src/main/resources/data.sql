@@ -1,7 +1,6 @@
 INSERT INTO user(userid, username, password, role, firstname, middlename, lastname, phonenumber, email, street, city, zip, state, country, unit_number)
 VALUES (1, 'thumpthump', 'password', 'USER', 'Randy', null, 'Calderon', '901-333-2014', 'tm@gmail.com', '6333 Brick Avenue', 'Burbank', 91606, 'CA',  'USA', null),
-       (2, 'jimmyj', 'password', 'USER', 'Jimmy', 'Alex', 'Sanders', '802-345-1930', 'jtry@gmail.com','1020 Bermuda Road', 'Houston', 70129, 'TX', 'USA', null),
-       (3, 'metax', 'password', 'USER', 'Rob', null, 'Robinson', '740-232-3890', 'metax@gmail.com', '8327 Jersey Lane', 'Newport', 008859, 'NJ', 'USA', null);
+                  (3, 'metax', 'password', 'USER', 'Rob', null, 'Robinson', '740-232-3890', 'metax@gmail.com', '8327 Jersey Lane', 'Newport', 008859, 'NJ', 'USA', null);
 
 INSERT INTO supplier(supplierid,suppliername,productname,quantity)
 VALUES (1, 'Kibbles Inc','Kibbles n Bits', 400),
@@ -27,4 +26,4 @@ VALUES (1, 1),
 
 --
 -- INSERT INTO user_orders(orderid, userid)
--- VALUES (1, 1);kokk
+-- VALUES (1, 1);

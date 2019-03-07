@@ -2,9 +2,12 @@ package com.randyc.shoppingcart.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 import javax.persistence.*;
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -154,5 +157,10 @@ public class User {
 
     public void setUnit_number(String unit_number) {
         this.unit_number = unit_number;
+    }
+
+    public List<SimpleGrantedAuthority> getAuthority() {
+        String myRole = "ROLE_" + this.role.toUpperCase();
+        return Arrays.asList(new SimpleGrantedAuthority(myRole));
     }
 }

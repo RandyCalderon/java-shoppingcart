@@ -23,12 +23,6 @@ public class Order {
     private long productid;
 
 
-//    @ManyToMany(mappedBy = "products")
-//    private Set<Product> products = new HashSet<>();
-
-//    @ManyToMany(mappedBy = "productsorders")
-//    private Set<Order> orders = new HashSet<>();
-
     public Order() {
     }
 
@@ -64,11 +58,5 @@ public class Order {
         this.quantity = quantity;
     }
 
-    //    public Set<Product> getProducts() {
-//        return products;
-//    }
-//
-//    public void setProducts(Set<Product> products) {
-//        this.products = products;
-//    }
+
 }
