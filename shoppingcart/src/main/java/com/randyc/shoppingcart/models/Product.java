@@ -14,22 +14,21 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long productid;
 
-    // Many to Many With Supplier
-    @ManyToMany(mappedBy = "products")
-    @JsonIgnoreProperties("products")
-    private Set<Supplier> suppliers = new HashSet<>();
-
-    @ManyToMany
-    @JoinTable(name = "order_products",
-    joinColumns = {@JoinColumn(name = "productid")}, inverseJoinColumns = {@JoinColumn(name="orderid")})
-    @JsonIgnoreProperties("products")
-    private Set<Order> orders;
+//    @ManyToMany
+//    @JoinTable(name = "order_products",
+//    joinColumns = {@JoinColumn(name = "productid")}, inverseJoinColumns = {@JoinColumn(name = "orderid")})
+//    private Set<Order> productsorders = new HashSet<>();
 
     // Product Fields
     private String productname;
     private String description;
     private int quantity;
     private double price;
+
+    // Many to Many With Supplier
+    @ManyToMany(mappedBy = "products")
+    @JsonIgnoreProperties("products")
+    private Set<Supplier> suppliers = new HashSet<>();
 
     public Product() {}
 
@@ -49,13 +48,14 @@ public class Product {
         this.suppliers = suppliers;
     }
 
-    public Set<Order> getOrders() {
-        return orders;
-    }
+//    public Set<Order> getProductsorders() {
+//        return productsorders;
+//    }
+//
+//    public void setProductsorders(Set<Order> productsorders) {
+//        this.productsorders = productsorders;
+//    }
 
-    public void setOrders(Set<Order> orders) {
-        this.orders = orders;
-    }
 
     public String getProductname() {
         return productname;

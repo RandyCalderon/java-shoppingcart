@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -11,18 +12,33 @@ import java.util.Set;
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
+
     private long orderid;
 
-    @ManyToOne
-    @JoinColumn(name = "userid")
-    @JsonIgnore
-    private User user;
+    private String productname;
 
-    @ManyToMany(mappedBy = "orders")
-    @JsonIgnoreProperties("orders")
-    private Set<Product> products;
+    private int quantity;
 
-    public Order() {}
+    private long productid;
+
+
+//    @ManyToMany(mappedBy = "products")
+//    private Set<Product> products = new HashSet<>();
+
+//    @ManyToMany(mappedBy = "productsorders")
+//    private Set<Order> orders = new HashSet<>();
+
+    public Order() {
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 
     public long getOrderid() {
         return orderid;
@@ -32,19 +48,27 @@ public class Order {
         this.orderid = orderid;
     }
 
-    public User getUser() {
-        return user;
+    public String getProductname() {
+        return productname;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setProductname(String productname) {
+        this.productname = productname;
     }
 
-    public Set<Product> getProducts() {
-        return products;
+    public int getQuantity() {
+        return quantity;
     }
 
-    public void setProducts(Set<Product> products) {
-        this.products = products;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
+
+    //    public Set<Product> getProducts() {
+//        return products;
+//    }
+//
+//    public void setProducts(Set<Product> products) {
+//        this.products = products;
+//    }
 }

@@ -17,7 +17,7 @@ public class Supplier {
     private String productname;
     private int quantity;
 
-    // Many to Many With Product
+    // Many to Many for supplier_products table join
     @ManyToMany
     @JoinTable(name = "supplier_products",
             joinColumns = {@JoinColumn(name="supplierid")}, inverseJoinColumns = {@JoinColumn(name="productid")})
@@ -32,14 +32,6 @@ public class Supplier {
 
     public void setSupplierid(long supplierid) {
         this.supplierid = supplierid;
-    }
-
-    public Set<Product> getProducts() {
-        return products;
-    }
-
-    public void setProducts(Set<Product> products) {
-        this.products = products;
     }
 
     public String getSuppliername() {
@@ -64,5 +56,13 @@ public class Supplier {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    public Set<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(Set<Product> products) {
+        this.products = products;
     }
 }
