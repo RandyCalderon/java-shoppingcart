@@ -1,5 +1,6 @@
 package com.randyc.shoppingcart.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -36,6 +37,11 @@ public class User {
     private String country;
     @Column(nullable = true)
     private String unit_number;
+
+    // User orders
+    @OneToMany(cascade = CascadeType.REMOVE, mappedBy = "user")
+    @JsonIgnoreProperties("userid")
+    private Set<Order> orders;
 
     public User() {}
 
@@ -157,6 +163,14 @@ public class User {
 
     public void setUnit_number(String unit_number) {
         this.unit_number = unit_number;
+    }
+
+    public Set<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(Set<Order> orders) {
+        this.orders = orders;
     }
 
     public List<SimpleGrantedAuthority> getAuthority() {

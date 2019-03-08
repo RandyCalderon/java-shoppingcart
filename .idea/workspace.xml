@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="59f319d9-b4a3-4473-b5d0-65dd21192e28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/OrderRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/resources/data.sql" afterDir="false" />
     </list>
@@ -32,8 +31,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/resources/data.sql">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="442">
-                    <caret line="26" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="28" selection-end-column="17" />
+                  <state relative-caret-position="493">
+                    <caret line="29" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="48" />
                   </state>
                 </provider>
               </entry>
@@ -44,86 +43,41 @@
     </window>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56330556">
+    <splitter split-orientation="horizontal" split-proportion="0.5733333">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/impl/UserServiceImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="358">
-                  <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/SecurityConfig.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="156">
-                  <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/Swagger2Config.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="534">
-                  <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/NoOpPasswordEncoder.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2125">
-                  <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+                <state relative-caret-position="375">
+                  <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java">
+            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Supplier.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="477">
-                  <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+                <state relative-caret-position="425">
+                  <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/resources/application.properties">
+            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="221">
-                  <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/ResourceServerConfig.java">
+            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/SupplierController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/AuthorizationServerConfig.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="33" selection-start-line="33" selection-end-line="33" />
+                <state relative-caret-position="344">
+                  <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -132,29 +86,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/OrderRepository.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="19" selection-start-column="19" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/ProductController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java">
+            <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Order.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+                <state relative-caret-position="375">
+                  <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -184,24 +120,25 @@
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Supplier.java" />
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Product.java" />
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Order.java" />
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/OrderRepository.java" />
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/shoppingcart/pom.xml" />
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/AuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java" />
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/UserService.java" />
-        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/NoOpPasswordEncoder.java" />
-        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java" />
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/shoppingcart/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/SupplierController.java" />
         <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java" />
+        <option value="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Order.java" />
+        <option value="$PROJECT_DIR$/shoppingcart/src/main/resources/data.sql" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="3266" />
@@ -212,8 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,6 +264,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,11 +275,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551957637076" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552037937539" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-bookstore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunDashboard">
@@ -384,18 +322,26 @@
       <workItem from="1551951053081" duration="1103000" />
       <workItem from="1551952308857" duration="953000" />
       <workItem from="1551953448865" duration="1327000" />
-      <workItem from="1551954852926" duration="2750000" />
+      <workItem from="1551954852926" duration="3236000" />
+      <workItem from="1551958275157" duration="600000" />
+      <workItem from="1552017337216" duration="3825000" />
+      <workItem from="1552025239401" duration="2665000" />
+      <workItem from="1552028429032" duration="515000" />
+      <workItem from="1552029186667" duration="3083000" />
+      <workItem from="1552033776025" duration="605000" />
+      <workItem from="1552034527777" duration="806000" />
+      <workItem from="1552035739530" duration="2182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51620000" />
+    <option name="totallyTimeSpent" value="66387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1063" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948097" visible="true" weight="0.18730159" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948097" visible="true" weight="0.20634921" />
       <window_info id="Structure" order="1" sideWeight="0.5051903" side_tool="true" weight="0.106031746" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,7 +359,7 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.42015004" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.41907823" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.31618434" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -431,7 +377,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948097" visible="true" weight="0.18222222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948097" visible="true" weight="0.20634921" />
       <window_info id="Structure" order="1" sideWeight="0.5051903" side_tool="true" weight="0.106031746" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -443,13 +389,13 @@
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.38049304" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.27652735" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.32475883" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.41907823" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.31618434" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -478,34 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/SupplierRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar!/com/mysql/cj/jdbc/ConnectionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -528,10 +446,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Supplier.java">
+    <entry file="file://$PROJECT_DIR$/shoppingcart/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="256">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/NoOpPasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/ShoppingcartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="29" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -542,101 +488,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/OrderRepository.java">
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/AuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/ProductController.java">
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state relative-caret-position="789">
+          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/OrderRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/pom.xml">
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/ProductRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/NoOpPasswordEncoder.java">
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/SupplierRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/Swagger2Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="157">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        <state relative-caret-position="374">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/AuthorizationServerConfig.java">
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="425">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/config/ResourceServerConfig.java">
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="375">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/SupplierController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="48" />
         </state>
       </provider>
     </entry>

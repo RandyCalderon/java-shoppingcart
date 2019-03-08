@@ -12,8 +12,6 @@ import java.util.Set;
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-
     private long orderid;
 
     private String productname;
@@ -22,16 +20,13 @@ public class Order {
 
     private long productid;
 
+    // Orders to User
+    @ManyToOne
+    @JoinColumn(name="userid")
+    @JsonIgnore
+    private User user;
 
     public Order() {
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public long getOrderid() {
@@ -58,5 +53,19 @@ public class Order {
         this.quantity = quantity;
     }
 
+    public long getProductid() {
+        return productid;
+    }
 
+    public void setProductid(long productid) {
+        this.productid = productid;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }
