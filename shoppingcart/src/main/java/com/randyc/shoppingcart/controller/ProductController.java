@@ -69,7 +69,7 @@ public class ProductController {
             @ApiResponse(code = 403, message = "Accessing the resources you were trying to reach is forbidden"),
             @ApiResponse(code = 404, message = "The resource you were trying to reach can not be found")
     })
-    @PutMapping
+    @PutMapping("/product/{id}")
     public Product updateProduct(@ApiParam(value="Params for request body")@RequestBody Product updatedProduct, @ApiParam(value="Id for existing product")@PathVariable long id) throws URISyntaxException {
         Optional<Product> updateProduct = productrepos.findById(id);
         if (updateProduct.isPresent()) {

@@ -2,16 +2,12 @@ package com.randyc.shoppingcart.controller;
 
 import com.randyc.shoppingcart.models.User;
 import com.randyc.shoppingcart.repository.UserRepository;
-import com.randyc.shoppingcart.service.impl.UserServiceImpl;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.annotation.Secured;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URISyntaxException;
@@ -23,9 +19,6 @@ public class UserController {
     @Autowired
     private UserRepository userrepos;
 
-    @Autowired
-    private UserServiceImpl userService;
-
     @ApiOperation(value = "List all Users", response = List.class)
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Successfully retrieved list"),
@@ -33,7 +26,7 @@ public class UserController {
             @ApiResponse(code = 403, message = "Accessing the resources you were trying to reach is forbidden"),
             @ApiResponse(code = 404, message = "The resource you were trying to reach can not be found")
     })
-    @Secured("ROLE_USER")
+
     @GetMapping
     public List<User> listAllUsers() {
         return userrepos.findAll();
@@ -51,10 +44,14 @@ public class UserController {
         return userrepos.findByUsername(name);
     }
 
+    @GetMapping("/user/email/{email}")
+    public User findByByEmail(@PathVariable String email) {
+        return userrepos.findByEmail(email);
+    }
 
-    @PostMapping("/user/")
+    @PostMapping
     public void createuser(@RequestBody User newUser) throws URISyntaxException {
-        userService.save(newUser);
+        userrepos.save(newUser);
     }
 
 
