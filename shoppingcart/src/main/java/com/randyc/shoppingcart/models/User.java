@@ -29,6 +29,7 @@ public class User {
     private String middlename;
     private String lastname;
     private String phonenumber;
+    @Column(unique = true)
     private String email;
     private String street;
     private String city;

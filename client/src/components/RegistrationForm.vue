@@ -2,30 +2,32 @@
   <a-form id="wrapper" :form="form" @submit="postUser">
     <a-form-item label="Email">
       <a-input
-        v-model="email"
         v-decorator="[
           'email',
           {rules: [{ required: true, message: 'Please input your email' }]}
         ]"
         placeholder="Email"
+        autocomplete="username email"
       />
     </a-form-item>
     <a-form-item label="Password">
       <a-input
-        v-model="password"
         v-decorator="[
           'password',
-          {rules: [{ required: true, message: 'Please input your password' }]}
+          {initialValue: '', rules: [{ required: true, message: 'Please input your password' }]}
         ]"
+        type="password"
+        autocomplete="new-password"
         placeholder="Password"
       />
     </a-form-item>
     <a-form-item label="Verify Password">
       <a-input
-        v-model="password2"
         v-decorator="[
-      'verify password',{rules: [{ required: true, message: 'Please verify your password'}]}
+      'password2',{initialValue: '', rules: [{ required: true, message: 'Please verify your password'}]}
       ]"
+        type="password"
+        autocomplete="new-password"
         placeholder="Verify Password"
       />
     </a-form-item>
@@ -47,9 +49,6 @@ export default {
   name: "registrationform",
   data() {
     return {
-      email: "",
-      password: "",
-      pasword2: "",
       form: this.$form.createForm(this)
     };
   },
@@ -61,7 +60,7 @@ export default {
         }
       });
     },
-    handleSelectChange(value) {
+    handleSelectChange() {
       this.form.setFieldsValue({
         email: this.email,
         password: this.password,
@@ -69,19 +68,29 @@ export default {
       });
     },
     postUser() {
-      if (this.password != this.password2) {
-        alert("Password don't match");
-      } else if (this.email.length < 14) {
-        alert("Please provide a valid email");
+      if (
+        this.form.getFieldValue("password") !=
+        this.form.getFieldValue("password2")
+      ) {
+        alert("Passwords do not match");
       } else {
+        // fix issues with chrome console logs and catching error
+        // Promise for routerpush
+        let loginPush = Promise.resolve(this.$router.push("/login"));
         axios
           .post("http://localhost:2019/users", {
-            email: this.email,
-            password: this.password,
+            email: this.form.getFieldValue("email"),
+            password: this.form.getFieldValue("password"),
             role: "USER"
           })
-          .then(res => {})
-          .catch(err => err.message);
+          .then(res => {
+            alert("You account has been made, you will be redirected to login");
+            res(loginPush);
+          })
+          .catch(err => {
+            console.log(err);
+            err.message;
+          });
       }
     }
   }

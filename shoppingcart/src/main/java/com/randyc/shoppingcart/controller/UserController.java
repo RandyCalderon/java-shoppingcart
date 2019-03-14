@@ -49,9 +49,19 @@ public class UserController {
         return userrepos.findByEmail(email);
     }
 
+    @ApiOperation(value = "Create a new user", response = Object.class)
+    @ApiResponses(value = {
+            @ApiResponse(code = 201, message = "Successfully created user"),
+            @ApiResponse(code = 500, message = "User already exists")
+    })
     @PostMapping
-    public void createuser(@RequestBody User newUser) throws URISyntaxException {
-        userrepos.save(newUser);
+    public Object createuser(@ApiParam(value = "User body")@RequestBody User newUser) throws URISyntaxException, Exception{
+        String checkEmail = newUser.getEmail();
+        if(userrepos.findEmail(checkEmail) != null) {
+           return "{username unique constraint : " + newUser.getEmail() + " already exists}";
+        } else {
+           return userrepos.save(newUser);
+        }
     }
 
 
