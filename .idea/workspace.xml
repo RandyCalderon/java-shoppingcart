@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59f319d9-b4a3-4473-b5d0-65dd21192e28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Product.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Product.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/RegistrationForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RegistrationForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/LoginForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LoginForm.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/shoppingcart/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +44,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-170">
-                  <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+                <state relative-caret-position="289">
+                  <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -59,7 +54,7 @@
             <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="476">
-                  <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+                  <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -174,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="4472" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -303,7 +298,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552553074778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552553888065" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-bookstore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -363,18 +358,19 @@
       <workItem from="1552114524823" duration="2482000" />
       <workItem from="1552181950782" duration="16127000" />
       <workItem from="1552484610005" duration="7273000" />
-      <workItem from="1552550535587" duration="2124000" />
+      <workItem from="1552550535587" duration="2717000" />
+      <workItem from="1552563338934" duration="1199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97035000" />
+    <option name="totallyTimeSpent" value="98827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4472" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="4472" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948097" visible="true" weight="0.20628998" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4948097" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" sideWeight="0.5051903" side_tool="true" weight="0.106031746" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -392,10 +388,10 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.31618434" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.31568018" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="13" visible="true" weight="0.34371755" />
+      <window_info active="true" anchor="bottom" id="Run" order="13" visible="true" weight="0.34371755" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -588,6 +584,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -628,6 +631,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -639,23 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart/src/main/java/com/randyc/shoppingcart/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
